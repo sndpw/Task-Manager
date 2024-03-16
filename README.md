@@ -6,7 +6,16 @@ This repository contains the source code for a Task Management System implemente
 
 1. Clone the repository
 
-2. Install dependencies
+2. Install dependencies:
+   ```
+   npm install express
+   npm install mongoose
+   npm install node-cron
+   npm install dotenv
+   npm install twilio
+   npm install jsonwebtoken
+   npm install bcryptjs
+   ```
 
 3. Set up environment variables:
 - Create a `.env` file in the root directory.
@@ -53,7 +62,7 @@ This repository contains the source code for a Task Management System implemente
 - **Changing User Priority**
 - Runs every minute to adjust user priorities based on task due dates.
 - **Twilio Voice Calling**
-- Runs every minute to initiate voice calls to users based on task priorities.
+- Executes at a predetermined time to initiate voice calls to users according to task priorities.
 - **Changing Task Priority**
 - Runs every minute to adjust task priorities based on the completion status of subtasks.
 
