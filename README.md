@@ -10,6 +10,7 @@ This repository contains the source code for a Task Management System implemente
    ```
 2. Install dependencies:
    ```
+   npm init -y
    npm install express
    npm install mongoose
    npm install node-cron
