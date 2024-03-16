@@ -4,8 +4,10 @@ This repository contains the source code for a Task Management System implemente
 
 ## Installation
 
-1. Clone the repository
-
+1. Clone the repository:
+   ```
+   git clone https://github.com/sndpw/Task-Manager.git
+   ```
 2. Install dependencies:
    ```
    npm install express
@@ -30,8 +32,10 @@ This repository contains the source code for a Task Management System implemente
 
 ## Usage
 
-1. Start the server
-
+1. Start the server:
+   ```
+   npm start
+   ```
 2. The server will start running on `http://localhost:3000` by default.
 
 ## API Endpoints
