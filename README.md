@@ -35,7 +35,7 @@ This repository contains the source code for a Task Management System implemente
 
 1. Start the server:
    ```
-   npm start
+   node app.js
    ```
 2. The server will start running on `http://localhost:3000` by default.
 
